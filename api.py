@@ -15,7 +15,7 @@ openai.api_key = api_key  # Azure API key
 
 # Streamlit App
 st.title("Privacy Policy Analyzer")
-st.markdown("Interact with Azure OpenAI GPT models directly from this app.")
+#st.markdown("Interact with Azure OpenAI GPT models directly from this app.")
 
 # Input box for user query
 user_input = st.text_area("Enter the privacy policy text:", placeholder="Paste privacy policy here...", height=200)
